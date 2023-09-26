@@ -1,0 +1,1132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+} 
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 2000;
+}
+header .margin {
+  margin: 0px 170px;
+}
+header .padding {
+  padding: 20px 0px;
+}
+header .nav-bar {
+  display: flex;
+  align-items: center;
+}
+header .nav-bar .logo {
+  flex: 2;
+  display: flex;
+}
+header .nav-bar .logo h2 {
+  font-size: 35px;
+  color: white;
+}
+header .nav-bar .logo span {
+  font-size: 35px;
+  font-weight: 700;
+}
+header .nav-bar .navigation {
+  flex: 1;
+}
+header .nav-bar .navigation ul {
+  display: flex;
+  gap: 30px;
+}
+header .nav-bar .navigation ul li a {
+  color: rgb(163, 160, 160);
+  font-size: 18px;
+  transition: 0.5s all ease-in-out;
+}
+header .nav-bar .navigation ul li a:hover {
+  color: black;
+}
+header .nav-bar .buttons {
+  flex: 1;
+  display: flex;
+  gap: 30px;
+  justify-content: end;
+}
+header .nav-bar .buttons .fa-user {
+  font-size: 18px;
+  color: #dc3545;
+}
+header .nav-bar .buttons .b-1 {
+  font-size: 18px;
+  color: #dc3545;
+}
+header .nav-bar .buttons .fa-search {
+  font-size: 18px;
+  color: #dc3545;
+}
+header .nav-bar .buttons .fa-bars {
+  font-size: 22px;
+  color: #dc3545;
+  display: none;
+}
+header .nav-bar .buttons a div:hover {
+  color: black;
+}
+header .nav-bar .buttons a div {
+  transition: 0.5s all ease-in-out;
+}
+/*==== section  1 ======*/
+.section1 {
+  position: relative;
+  background: url(banner-bg.png);
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+}
+.section1 .minisection {
+  position: absolute;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  top: 40%;
+}
+.section1 .margin {
+  margin: 0px 170px;
+}
+.section1 .minisection .details h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+.section1 .minisection .details .p-1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #dc3545;
+  padding-top: 20px;
+}
+.section1 .minisection .details .p-2 {
+  font-size: 20px;
+  color: gray;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.section1 .minisection .buttons {
+  display: flex;
+  gap: 30px;
+}
+.section1 .minisection .buttons .b-1 {
+  height: 40px;
+  width: 150px;
+  background-color: #dc3545;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  display: grid;
+  align-items: center;
+  place-content: center;
+  transition: 0.5s all ease-in-out;
+}
+.section1 .minisection .buttons .b-1:hover {
+  background-color: rgb(75, 74, 74);
+}
+.section1 .minisection .buttons .b-2 {
+  height: 40px;
+  width: 150px;
+  background-color: rgb(75, 74, 74);
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  display: grid;
+  align-items: center;
+  place-content: center;
+}
+/*======= section 2=======*/
+.section2 .margin {
+  margin: 0px 170px;
+}
+.section2 .padding {
+  padding: 50px 0px;
+}
+.section2 .heading h1 {
+  text-align: center;
+  padding: 20px 0px;
+}
+.section2 .minisection {
+  display: flex;
+  gap: 30px;
+}
+.section2 .minisection .box img {
+  height: 80%;
+  width: 100%;
+}
+.section2 .minisection .box .text {
+  text-align: center;
+}
+.section2 .minisection .box .text p {
+  font-size: 17px;
+  color: rgb(79, 78, 78);
+  padding: 10px 0px;
+}
+.section2 .minisection .box .text .btn {
+  display: flex;
+  justify-content: center;
+}
+.section2 .minisection .box .text .btn .button {
+  height: 40px;
+  width: 150px;
+  color: white;
+  font-weight: 600;
+  font-size: 17px;
+  display: grid;
+  align-items: center;
+  place-content: center;
+  background-color: #dc3545;
+  transition: 0.5s all ease-in-out;
+}
+.section2 .minisection .box .text .btn .button:hover {
+  background-color: rgb(69, 69, 69);
+}
+/*======== section 3========*/
+.section3 .margin {
+  margin: 0px 170px;
+}
+.section3 .padding {
+  padding: 50px 0px;
+}
+.section3 .minisection {
+  position: relative;
+}
+.section3 .heading {
+  display: grid;
+  justify-content: center;
+  padding: 20px 0px;
+  font-size: 20px;
+}
+.section3 .minisection .image {
+  display: flex;
+  justify-content: end;
+}
+.section3 .minisection .image img {
+  width: 80%;
+  height: 450px;
+}
+.section3 .minisection .text {
+  position: absolute;
+  width: 40%;
+  background-color: white;
+  top: 8%;
+  padding: 24px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 3px rgb(133, 131, 131);
+}
+.section3 .minisection .text h1 {
+  font-weight: 500;
+  color: rgb(105, 103, 103);
+  padding-top: 20px;
+}
+.section3 .minisection .text p {
+  font-size: 17px;
+  color: rgb(107, 106, 106);
+  padding: 20px 0px;
+}
+.section3 .minisection .text .button {
+  height: 50px;
+  width: 150px;
+  font-size: 17px;
+  font-weight: 600;
+  border: 2px solid #dc3545;
+  color: #dc3545;
+  font-weight: 700;
+  display: grid;
+  align-items: center;
+  place-content: center;
+  transition: 0.5s all ease-in-out;
+}
+.section3 .minisection .text .button:hover {
+  border: 2px solid rgb(93, 92, 92);
+  color: rgb(93, 92, 92);
+}
+/*====== section 4======*/
+.section4 {
+  background: url(section4-main.png);
+  background-size: cover;
+}
+.section4 .margin {
+  margin-left: 170px;
+  margin-right: 400px;
+}
+.section4 .padding {
+  padding: 30px 0px;
+}
+.section4 .heading {
+  display: grid;
+  justify-content: center;
+  padding: 30px 0px;
+  font-size: 20px;
+}
+.section4 .heading h1 {
+  text-shadow: 0px 5px 3px rgb(85, 83, 83);
+}
+.section4 .minisection {
+  display: grid;
+  gap: 20px;
+}
+.section4 .minisection .box {
+  display: flex;
+  gap: 40px;
+}
+.section4 .minisection .box .text h2 {
+  font-size: 30px;
+}
+.section4 .minisection .box .text p {
+  font-size: 20px;
+  color: rgb(68, 68, 68);
+}
+/*======= section 5 ======*/
+.section5 .margin {
+  margin: 0px 170px;
+}
+.section5 .padding {
+  padding: 50px 0px;
+}
+.section5 .heading {
+  display: grid;
+  justify-content: center;
+  padding: 20px 0px;
+  font-size: 20px;
+}
+.section5 .minisection {
+  display: flex;
+  gap: 60px;
+}
+.section5 .minisection .mainbox .box {
+  box-shadow: 0px 0px 10px 6px rgb(101, 100, 100);
+}
+.section5 .minisection .mainbox .box img {
+  height: 60%;
+  width: 100%;
+}
+.section5 .minisection .mainbox .box h1 {
+  font-size: 25px;
+  padding: 10px 10px;
+}
+.section5 .minisection .mainbox .box p {
+  font-size: 17px;
+  color: rgb(57, 56, 56);
+  font-weight: 500;
+  padding: 20px 10px;
+}
+.section5 .minisection .mainbox .btn {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.section5 .minisection .mainbox .btn .button {
+  height: 50px;
+  width: 150px;
+  border: 2px solid #dc3545;
+  color: #dc3545;
+  display: grid;
+  align-items: center;
+  place-content: center;
+  transition: 0.5s all ease-in-out;
+}
+.section5 .minisection .mainbox .btn .button:hover {
+  color: black;
+  border: 2px solid black;
+}
+/*========= section 6=========*/
+.section6 .margin {
+  margin: 0px 170px;
+}
+.section6 .padding {
+  padding: 40px 0px;
+}
+.section6 .heading {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+  font-size: 20px;
+}
+.section6 .minisection {
+  display: grid;
+  justify-content: center;
+  gap: 40px;
+}
+.section6 .minisection input {
+  border-radius: 40px;
+  height: 50px;
+  width: 600px;
+  background-color: rgb(222, 219, 219);
+  border: 1px solid transparent;
+}
+.section6 .minisection input::placeholder {
+  padding-left: 20px;
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+}
+.section6 .minisection textarea {
+  border-radius: 40px;
+  border: 1px solid transparent;
+  background-color: rgb(222, 219, 219);
+}
+.section6 .minisection textarea::placeholder {
+  padding-left: 20px;
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+  padding-top: 5%;
+}
+.section6 .minisection .btn {
+  display: flex;
+  justify-content: center;
+}
+.section6 .minisection .btn .button {
+  height: 50px;
+  width: 170px;
+  border-radius: 10px;
+  background-color: #dc3545;
+  color: white;
+  font-size: 19px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s all ease-in-out;
+}
+.section6 .minisection .btn .button:hover {
+  background-color: rgb(75, 74, 74);
+}
+/*========= footer===========*/
+footer {
+  background: url(footer.png);
+  background-size: cover;
+}
+footer .margin {
+  margin: 0px 170px;
+}
+footer .padding {
+  padding-top: 30px;
+}
+footer .minisection {
+  display: grid;
+  align-items: center;
+  place-content: center;
+  text-align: center;
+  color: white;
+}
+footer .minisection .text h1 {
+  font-size: 40px;
+}
+footer .minisection .text p {
+  font-size: 20px;
+  padding: 45px 210px;
+}
+footer .minisection .number {
+  padding: 10px 0px;
+}
+footer .minisection .number a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  transition: 0.5s all ease-in-out;
+  color: white;
+}
+footer .minisection .number a:hover {
+  color: #dc3545;
+}
+footer .minisection .number .fa-phone {
+  font-size: 25px;
+}
+footer .minisection .number .fa-envelope {
+  font-size: 25px;
+}
+footer .minisection .number .num {
+  font-size: 20px;
+}
+footer .minisection .e-mail {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+footer .minisection .e-mail textarea {
+  width: 40%;
+}
+footer .minisection .e-mail textarea::placeholder {
+  padding-left: 20px;
+  padding-top: 3%;
+  font-size: 25px;
+  font-weight: 600;
+}
+footer .minisection .e-mail .fa-location-arrow {
+  font-size: 35px;
+  height: 60px;
+  width: 60px;
+  background-color: #dc3545;
+  display: grid;
+  place-content: center;
+}
+footer .minisection .e-mail a {
+  color: white;
+}
+.h-line {
+  background-color: #dc3545;
+}
+.h-line .minisection {
+  display: flex;
+  gap: 45%;
+  padding: 15px 170px;
+  align-items: center;
+}
+.h-line .minisection .text {
+  font-size: 20px;
+  color: white;
+}
+.h-line .minisection .text a {
+  color: white;
+  transition: 0.5s all ease-in-out;
+}
+.h-line .minisection .text a:hover {
+  color: black;
+}
+.h-line .minisection .icon {
+  font-size: 25px;
+  display: flex;
+  gap: 20px;
+}
+.h-line .minisection .icon .fa-facebook-f,
+.fa-twitter,
+.fa-linkedin-in,
+.fa-instagram {
+  display: grid;
+  align-items: center;
+  place-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: #dc3545;
+  background-color: white;
+}
+.h-line .minisection .icon a div {
+  transition: 0.5s all ease-in-out;
+}
+.h-line .minisection .icon a:hover div {
+  color: rgb(93, 91, 91);
+}
+
+/*====== media query ======*/
+@media (max-width: 576px) {
+  header .margin {
+    margin: 0px 10px;
+  }
+  header .nav-bar .navigation {
+    display: none;
+  }
+  header .nav-bar .logo h2 {
+    font-size: 25px;
+  }
+  header .nav-bar .logo span {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  header .nav-bar .buttons {
+    gap: 10px;
+  }
+  header .nav-bar .buttons .fa-bars {
+    display: block;
+  }
+  header .nav-bar .buttons .fa-user {
+    display: none;
+  }
+  /*=======section 1========*/
+  .section1 {
+    height: 700px;
+  }
+  .section1 .margin {
+    margin: 0px 10px;
+  }
+  .section1 .minisection {
+    flex-direction: column;
+    top: 15%;
+  }
+  .section1 .minisection .image img {
+    height: 70%;
+    width: 70%;
+  }
+  .section1 .minisection .buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+  /*===== section 2=====*/
+  .section2 .margin {
+    margin: 0px 10px;
+  }
+  .section2 .minisection {
+    flex-direction: column;
+  }
+  /*===== section 3======*/
+  .section3 .margin {
+    margin: 0px 10px;
+  }
+  .section3 .padding {
+    padding: 0px 0px;
+  }
+  .section3 .heading {
+    font-size: 13px;
+  }
+  .section3 .minisection {
+    display: grid;
+    gap: 10px;
+  }
+  .section3 .minisection .text {
+    position: relative;
+    width: 100%;
+  }
+  .section3 .minisection .text h1 {
+    font-size: 20px;
+  }
+  .section3 .minisection .image img {
+    height: 250px;
+    width: 100%;
+  }
+  .section3 .minisection .text p {
+    font-size: 13px;
+  }
+  /*========section 4========*/
+  .section4 {
+    position: relative;
+    z-index: 1;
+  }
+  .section4::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.621);
+    z-index: -1;
+  }
+  .section4 .margin {
+    margin: 40px 10px;
+  }
+  .section4 .padding {
+    padding: 0px 0px;
+  }
+  .section4 .heading {
+    font-size: 12px;
+    padding: 10px 0px;
+  }
+  .section4 .minisection .box {
+    flex-direction: column;
+  }
+  .section4 .minisection .box .text h2 {
+    color: white;
+  }
+  .section4 .minisection .box .text p {
+    color: white;
+  }
+  /*======== section 5========*/
+  .section5 .margin {
+    margin: 0px 10px;
+  }
+  .section5 .minisection {
+    flex-direction: column;
+  }
+  /*========= section 6========*/
+  .section6 .margin {
+    margin: 0px 10px;
+  }
+  .section6 .minisection input {
+    width: 300px;
+  }
+  /*====== footer =======*/
+  footer .margin {
+    margin: 0px 10px;
+  }
+  footer .minisection .text p {
+    font-size: 20px;
+    padding: 20px 0px;
+  }
+  footer .minisection .e-mail textarea {
+    height: 40px;
+    width: 100%;
+  }
+  footer .minisection .e-mail .fa-location-arrow {
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+  }
+  footer .minisection .e-mail textarea::placeholder {
+    font-size: 20px;
+  }
+  /*========= h-line=======*/
+  .h-line .minisection {
+    flex-direction: column;
+    padding: 15px 10px;
+    gap: 20px;
+  }
+  .h-line .minisection .text {
+    font-size: 15px;
+  }
+  .h-line .minisection .icon {
+    font-size: 20px;
+  }
+  .h-line .minisection .icon .fa-facebook-f,
+  .fa-twitter,
+  .fa-linkedin-in,
+  .fa-instagram {
+    height: 30px;
+    width: 30px;
+  }
+}
+@media (min-width: 576px) {
+  header .margin {
+    margin: 0px 10px;
+  }
+  header .nav-bar .navigation {
+    display: none;
+  }
+  header .nav-bar .logo h2 {
+    font-size: 30px;
+  }
+  header .nav-bar .logo span {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  header .nav-bar .buttons .fa-bars {
+    display: block;
+  }
+  header .nav-bar .buttons .fa-user {
+    display: block;
+  }
+  /*=======section 1========*/
+  .section1 {
+    height: 700px;
+  }
+  .section1 .margin {
+    margin: 0px 10px;
+  }
+  .section1 .minisection {
+    flex-direction: column;
+    top: 15%;
+  }
+  .section1 .minisection .image img {
+    height: 70%;
+    width: 70%;
+  }
+  .section1 .minisection .buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+  /*===== section 2=====*/
+  .section2 .margin {
+    margin: 0px 10px;
+  }
+  .section2 .minisection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+  }
+  /*===== section 3======*/
+  .section3 .margin {
+    margin: 0px 10px;
+  }
+  .section3 .padding {
+    padding: 0px 0px;
+  }
+  .section3 .heading {
+    font-size: 13px;
+  }
+  .section3 .minisection {
+    display: grid;
+    gap: 10px;
+  }
+  .section3 .minisection .text {
+    position: relative;
+    width: 100%;
+  }
+  .section3 .minisection .text h1 {
+    font-size: 25px;
+  }
+  .section3 .minisection .image img {
+    height: 300px;
+    width: 100%;
+  }
+  .section3 .minisection .text p {
+    font-size: 13px;
+  }
+  .section4 {
+    position: relative;
+    z-index: 1;
+  }
+  .section4::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    z-index: -1;
+  }
+  .section4 .margin {
+    margin: 40px 10px;
+  }
+  .section4 .padding {
+    padding: 0px 0px;
+  }
+  .section4 .heading {
+    font-size: 18px;
+    padding: 10px 0px;
+  }
+  .section4 .minisection .box {
+    flex-direction: row;
+  }
+  .section4 .minisection .box .text h2 {
+    color: black;
+  }
+  .section4 .minisection .box .text p {
+    color: black;
+  }
+  /*======== section 5========*/
+  .section5 .margin {
+    margin: 0px 10px;
+  }
+  .section5 .minisection {
+    flex-direction: row;
+  }
+  /*========= section 6========*/
+  .section6 .margin {
+    margin: 0px 10px;
+  }
+  .section6 .minisection input {
+    width: 600px;
+  }
+  /*====== footer =======*/
+  footer .margin {
+    margin: 0px 10px;
+  }
+  footer .minisection .text p {
+    font-size: 20px;
+    padding: 20px 0px;
+  }
+  footer .minisection .e-mail textarea {
+    height: 40px;
+    width: 50%;
+  }
+  footer .minisection .e-mail .fa-location-arrow {
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+  }
+  footer .minisection .e-mail textarea::placeholder {
+    font-size: 20px;
+  }
+  /*========= h-line=======*/
+  .h-line .minisection {
+    flex-direction: column;
+    padding: 15px 10px;
+    gap: 20px;
+  }
+  .h-line .minisection .text {
+    font-size: 18px;
+  }
+  .h-line .minisection .icon {
+    font-size: 25px;
+  }
+  .h-line .minisection .icon .fa-facebook-f,
+  .fa-twitter,
+  .fa-linkedin-in,
+  .fa-instagram {
+    height: 40px;
+    width: 40px;
+  }
+}
+@media (min-width: 768px) {
+  header .margin {
+    margin: 0px 100px;
+  }
+  header .nav-bar .navigation {
+    display: none;
+  }
+  header .nav-bar .logo h2 {
+    font-size: 35px;
+  }
+  header .nav-bar .logo span {
+    font-size: 35px;
+    font-weight: 700;
+  }
+  header .nav-bar .buttons .fa-bars {
+    display: block;
+  }
+  header .nav-bar .buttons .fa-user {
+    display: block;
+  }
+  /*=======section 1========*/
+  .section1 {
+    height: 700px;
+  }
+  .section1 .margin {
+    margin: 0px 100px;
+  }
+  .section1 .minisection {
+    flex-direction: column;
+    top: 15%;
+  }
+  .section1 .minisection .image img {
+    height: 70%;
+    width: 70%;
+  }
+  .section1 .minisection .buttons {
+    flex-direction: row;
+    gap: 30px;
+  }
+  /*===== section 2=====*/
+  .section2 .margin {
+    margin: 0px 80px;
+  }
+  .section2 .minisection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /*===== section 3======*/
+  .section3 .margin {
+    margin: 0px 10px;
+  }
+  .section3 .padding {
+    padding: 50px 0px;
+  }
+  .section3 .heading {
+    font-size: 20px;
+  }
+  .section3 .minisection {
+    display: grid;
+    gap: 0px;
+  }
+  .section3 .minisection .text {
+    position: absolute;
+    width: 45%;
+  }
+  .section3 .minisection .image img {
+    height: 450px;
+    width: 80%;
+  }
+  .section3 .minisection .text p {
+    font-size: 15px;
+  }
+  /*======= section4 =======*/
+  .section4 .margin {
+    margin: 40px 100px;
+  }
+  /*====== section 5=======*/
+  .section5 .margin {
+    margin: 0px 100px;
+  }
+  /*========= section 6========*/
+  .section6 .margin {
+    margin: 0px 100px;
+  }
+  .section6 .minisection input {
+    width: 600px;
+  }
+  /*======= footer ======*/
+  footer .margin {
+    margin: 0px 100px;
+  }
+  footer .minisection .e-mail textarea {
+    height: 40px;
+    width: 40%;
+  }
+   /*========= h-line=======*/
+   .h-line .minisection {
+    flex-direction: row;
+    padding:15px 100px;
+    gap: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  header .nav-bar .navigation {
+    display: block;
+  }
+  header .nav-bar .logo h2 {
+    font-size: 35px;
+  }
+  header .nav-bar .logo span {
+    font-size: 35px;
+    font-weight: 700;
+  }
+  header .nav-bar .buttons .fa-bars {
+    display: none;
+  }
+  header .nav-bar .buttons .fa-user {
+    display: block;
+  }
+  /*=======section 1========*/
+  .section1 {
+    height: 700px;
+  }
+  .section1 .margin {
+    margin: 0px 100px;
+  }
+  .section1 .minisection {
+    flex-direction: row;
+    top: 50%;
+  }
+  .section1 .minisection .image img {
+    height: 70%;
+    width: 70%;
+  }
+  .section1 .minisection .buttons {
+    flex-direction: row;
+    gap: 30px;
+  }
+  /*===== section 2=====*/
+  .section2 .margin {
+    margin: 0px 100px;
+  }
+  .section2 .minisection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /*===== section 3======*/
+  .section3 .margin {
+    margin: 0px 50px;
+  }
+  .section3 .minisection .text {
+    position: absolute;
+    width: 40%;
+  }
+  .section3 .minisection .image img {
+    height: 450px;
+    width: 80%;
+  }
+  .section3 .minisection .text p {
+    font-size: 17px;
+  }
+  /*========= section 6========*/
+  .section6 .margin {
+    margin: 0px 100px;
+  }
+  .section6 .minisection input {
+    width: 600px;
+  }
+  /*======= footer ======*/
+  footer .minisection .text p {
+    font-size: 20px;
+    padding: 20px 80px;
+  }
+  footer .minisection .e-mail textarea {
+    height: 60px;
+    width: 40%;
+  }
+  footer .minisection .e-mail .fa-location-arrow {
+    font-size: 35px;
+    height: 60px;
+    width: 60px;
+  }
+  footer .minisection .e-mail textarea::placeholder {
+    font-size: 25px;
+  }
+   /*========= h-line=======*/
+   .h-line .minisection {
+    flex-direction: row;
+    padding:15px 100px;
+    gap: 250px;
+  }
+}
+@media (min-width: 1200px) {
+  header .margin {
+    margin: 0px 170px;
+  }
+  header .nav-bar .navigation {
+    display: block;
+  }
+  header .nav-bar .logo h2 {
+    font-size: 35px;
+  }
+  header .nav-bar .logo span {
+    font-size: 35px;
+    font-weight: 700;
+  }
+  /*=======section 1========*/
+  .section1 {
+    height: 600px;
+  }
+  .section1 .margin {
+    margin: 0px 170px;
+  }
+  .section1 .minisection {
+    flex-direction: row;
+    top: 30%;
+  }
+  .section1 .minisection .image img {
+    height: 100%;
+    width: 100%;
+  }
+  .section1 .minisection .buttons {
+    flex-direction: row;
+    gap: 30px;
+  }
+  /*===== section 2=====*/
+  .section2 .margin {
+    margin: 0px 170px;
+  }
+  .section2 .minisection {
+    display: flex;
+    gap: 20px;
+  }
+  /*===== section 3======*/
+  .section3 .margin {
+    margin: 0px 170px;
+  }
+  .section3 .minisection .text {
+    position: absolute;
+    width: 40%;
+  }
+  .section3 .minisection .image img {
+    height: 450px;
+    width: 80%;
+  }
+  .section3 .minisection .text p {
+    font-size: 17px;
+  }
+  /*======= section4 =======*/
+  .section4 .margin {
+    margin: 40px 170px;
+  }
+  /*=======section 5=====*/
+  .section5 .margin {
+    margin: 0px 170px;
+  }
+  /*========= section 6========*/
+  .section6 .margin {
+    margin: 0px 170px;
+  }
+  .section6 .minisection input {
+    width: 600px;
+  }
+  /*======= footer ======*/
+  footer .margin {
+    margin: 0px 170px;
+  }
+  footer .minisection .text p {
+    padding: 45px 210px;
+  }
+  /*========= h-line=======*/
+  .h-line .minisection {
+    flex-direction: row;
+    padding:15px 100px;
+    gap: 45%;
+  }
+}
